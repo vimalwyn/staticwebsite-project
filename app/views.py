@@ -12,7 +12,7 @@ def refresh(request):
     obj = place.objects.all()
     return render(request,"refresh.html",{'result':obj})
 
-def about(request):
-    return render(request,"contact.html")
+def logout(request):
+    return render(request,"index.html")
 
 
